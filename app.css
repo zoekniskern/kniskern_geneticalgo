@@ -1,0 +1,11 @@
+html, body {
+  overflow: hidden;
+  margin: 0;
+  background-color: gray;
+}	
+
+#mainCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
