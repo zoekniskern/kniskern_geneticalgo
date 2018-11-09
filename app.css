@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
 html, body {
   overflow: hidden;
   margin: 0;
@@ -5,7 +7,31 @@ html, body {
 }	
 
 #mainCanvas {
-  width: 100vw;
-  height: 100vh;
   display: block;
 }
+
+.controls{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  color: lightgray;
+}
+
+.button {
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: 'Work Sans', sans-serif;
+  color: lightgray;
+  border: 1px solid lightgray;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: lightgray;
+    color: gray;
+  }
